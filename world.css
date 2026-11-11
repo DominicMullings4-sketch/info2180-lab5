@@ -1,1 +1,80 @@
 /* Add your own styles */
+body{
+    background-color:rgb(238, 244, 244);
+}
+
+header{
+    background-color: rgb(44, 45, 64);
+}
+
+img{
+    border-radius: 50%;
+    float: left;
+}
+
+.Top-of-page{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    padding: 1.5rem;
+    color: white;
+}
+
+.main-content{
+    width: min(56rem, calc(100% - 2rem));
+    margin: 0 auto;
+}
+
+.search-section #controls{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap:wrap;
+}
+
+.search-section label{
+    margin-bottom: 0;
+}
+
+.search-section input{
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.search-section button{
+    padding: 0.5rem;
+    background-color: rgb(30, 152, 117);
+    color: white;
+}
+
+.results-section{
+    margin-top: 2rem;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #000000;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    gap: 1.5rem;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

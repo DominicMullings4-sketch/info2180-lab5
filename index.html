@@ -11,21 +11,25 @@
 		<script src="world.js" type="text/javascript"></script>
 	</head>
 
-	<body>
-		<header>
+	<body class="grid-container">
+		<header class="Top-of-page">
+			<img src="./images/World-Map.jpg" alt="A map of the whole world" width="300" height="300"/></div>
 			<h1>World Database Lookup</h1>
 		</header>
 
-		<main>
-			<div id="controls">
-				<label for="country">Country:</label>
-				<input id="country" type="search" name="country" placeholder="Enter country name" />
-				<button id="lookup">Lookup</button>
-			</div>
-			
-			<div id="result">
-				<!-- countries will appear here -->
-			</div>
+		<main class="main-content">
+			<section class="search-section">
+				<div id="controls">
+					<label for="country">Country:</label>
+					<input id="country" type="search" name="country" placeholder="Enter country name" />
+					<button id="lookup">Lookup</button>
+				</div>
+			</section>
+			<section class="results-section">
+				<div id="result">
+					<!-- countries will appear here -->
+				</div>
+			</section>
 		</main>
 
 	</body>
