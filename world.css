@@ -43,9 +43,15 @@ img{
     box-sizing: border-box;
 }
 
-.search-section button{
+.search-section #lookup-country{
     padding: 0.5rem;
-    background-color: rgb(30, 152, 117);
+    background-color: rgb(30, 152, 118);
+    color: white;
+}
+
+.search-section #lookup-cities{
+    padding: 0.5rem;
+    background-color: rgb(29, 117, 147);
     color: white;
 }
 
